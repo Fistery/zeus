@@ -1,0 +1,34 @@
+.cooking {
+  position: relative;
+  background-color: #1a1c0f;
+  min-height: 845px;
+}
+
+.cooking__title {
+  font-family: "CinzelDecorative", "Arial", sans-serif;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.cooking__text {
+  color: #cdb378;
+  margin-top: 10px;
+}
+
+.cooking__img {
+  position: absolute;
+  width: 560;
+  height: 635;
+  top: -30px;
+  right: 0;
+}
+
+.cooking__img--beer {
+  position: absolute;
+  top: 70px;
+  right: 470px;
+  z-index: 3;
+}

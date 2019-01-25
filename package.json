@@ -1,0 +1,32 @@
+{
+  "name": "zeus",
+  "version": "1.0.0",
+  "description": "beer landing",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fistery/zeus.git"
+  },
+  "author": "Fistery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fistery/zeus/issues"
+  },
+  "homepage": "https://github.com/Fistery/zeus#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

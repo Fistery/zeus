@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Amiri" ,"Arial", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.main-container {
+  background-image: url("../image/bg.jpg");
+  background-position: top top;
+  width: 100%;
+}
+
+.container {
+  &--page {
+    margin: 0 auto;
+    width: 100%;
+  }
+  &--header {
+    padding: 65px;
+    width: 700px;
+    margin: 0 auto;
+  }
+  &--cooking {
+    padding: 90px 210px 55px 210px;
+  }
+  &--quality {
+    padding: 150px 185px 0 185px;
+  }
+}

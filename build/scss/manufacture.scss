@@ -1,0 +1,22 @@
+.manufacture {
+  position: relative;
+  z-index: 2;
+}
+
+.manufacture__title {
+  position: absolute;
+  font-family: "CinzelDecorative", "Arial", sans-serif;
+  color: #000000;
+  width: 570px;
+  font-size: 60px;
+  line-height: 71px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  top: 320px;
+  right: 255px;
+}
+
+.manufacture__image {
+  width: 100%;
+}

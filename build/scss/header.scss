@@ -1,0 +1,84 @@
+.main-header {
+  background-image: url("../image/Photo-Overlay.jpg");
+  background-position: top center;
+  min-height: 1025px;
+}
+
+.header__logo {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.main-header__info {
+  width: 702px;
+  margin: 140px auto 0 auto;
+  // text-align: center;
+}
+
+.main-header__info--title {
+  position: relative;
+  font-family: "CinzelDecorative", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    width: 242px;
+    height: 4px;
+    background-color: #cdb378;
+    top: 31px;
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 10px;
+  }
+}
+
+.main-header__info--text {
+  font-family: "CinzelDecorative", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  margin: 10px 0 0 0;
+}
+
+.main-header__info--author-name {
+  font-family: "Amiri", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+  color: #cdb378;
+  margin-top: 15px;
+  margin-bottom: 305px;
+  text-align: center;
+}
+
+.main-header__info--scroll {
+  position: relative;
+  font-family: "Amiri", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-style: italic;
+  color: #cdb378;
+  padding-left: 295px;
+  padding-bottom: 70px;
+  &::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid #cdb378;
+    border-top: transparent;
+    border-right: transparent;
+    transform: rotate(-45deg);
+    top: 25px;
+    left: 347px;
+  }
+}

@@ -1,0 +1,51 @@
+.zeus-info {
+  position: relative;
+  overflow: hidden;
+  width: 86%;
+  background-color: #232615;
+  margin-top: -485px;
+  z-index: 1;
+  box-shadow: 0 0 250px 0 #000;
+}
+
+.zeus-info__title {
+  font-family: "CinzelDecorative", "Arial", sans-serif;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #cdb378;
+  margin: 0;
+  padding: 0;
+}
+
+.zeus-info__text {
+  width: 74%;
+  color: #b4ba98;
+}
+
+.zeus-info__link {
+  display: block;
+  font-size: 16px;
+  line-height: 48px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #272a18;
+  border: 2px solid #404429;
+  width: 222px;
+  margin-top: 60px;
+  margin-bottom: 48px;
+
+  &:hover {
+    background-color: #404429;
+  }
+}
+
+.zeus-info__img--bg {
+  position: absolute;
+  width: 650px;
+  opacity: 0.1;
+  top: -130px;
+  right: -40px;
+  transform: rotate(15deg);
+}
